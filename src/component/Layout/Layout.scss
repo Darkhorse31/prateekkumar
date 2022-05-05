@@ -1,0 +1,99 @@
+.page {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+
+.top-tags {
+    bottom: auto;
+    top: 20px;
+}
+
+.tags {
+    color: #FF008C;
+    opacity: .7;
+    position: absolute;
+    bottom: 0;
+    left: 120px;
+    font-family: "La Belle Aurore";
+    font-size: 1.8rem;
+}
+
+.container {
+    position: absolute;
+    width: 100%;
+    will-change: contents;
+    height: 100%;
+    min-height: 566px;
+    opacity: 0;
+    top: 0;
+    margin: 0 auto;
+    z-index: 1;
+    transform-style: preserve-3d;
+    animation: fadeIn 1s forwards;
+    animation-delay: 1s;
+    display: flex;
+    @media only screen and (max-width:"768px") {
+        flex-direction: column;
+
+
+    }
+
+}
+
+.about-page,
+.contact-page {
+     
+    .text-zone {
+        position: absolute;
+        left: 10%;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 35%;
+        vertical-align: middle;
+        display: table-cell;
+        @media only screen and (max-width:"768px") {
+            width: 80%;
+            top: 40%;
+    
+        }
+
+        h1 {
+            font-size: 53px;
+            font-family: 'Coolvetica';
+            color: #FF008C;
+            font-weight: 400;
+            margin-top: 0;
+            left: 10px;
+            margin-bottom: 30px;
+
+
+
+
+        }
+
+        p {
+            font-size: 13px;
+            font-family: sans-serif;
+            font-weight: 300;
+            min-width: fit-content;
+            animation: pulse 1s;
+            text-transform: capitalize;
+
+            &:nth-child(1) {
+                animation-delay: 1.2s;
+            }
+
+            &:nth-child(2) {
+                animation-delay: 1.4s;
+            }
+
+            &:nth-child(3) {
+                animation-delay: 1.6s;
+            }
+
+        }
+
+    }
+
+}

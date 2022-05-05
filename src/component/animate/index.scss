@@ -1,0 +1,15 @@
+.text-animated {
+    display: inline-block;
+    opacity: 0;
+    animation: bounceIn 1.3s 1s;
+    animation-fill-mode: forwards;
+    min-width: none;
+    min-width: 10px;
+}
+.word:hover
+{
+    display: inline-block;
+    color: rgb(255,0,140);
+    animation-fill-mode:both;
+    animation:heartBeat 1s ;
+}
