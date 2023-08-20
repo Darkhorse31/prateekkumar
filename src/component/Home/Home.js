@@ -6,8 +6,8 @@ import Prateek from '../../assets/images/prateek.svg'
 import Animatetext from '../animate/Animatetext.js'
 import Loader from 'react-loaders'
 const Home = () => {
-  const arr = ['P', 'r', 'a', 't', 'e', 'e', 'k']
-  const job = ['W', 'e', 'b', ' ', 'd', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r']
+  const arr = ['D','i','v','y','a','n','s','h','u', 'Y','a','d','a','v']
+  const job = ['A student wants to be a software ', 'E','n','g','i','n','e','e','r','.']
 
   return (
     <>
@@ -24,17 +24,17 @@ const Home = () => {
             <br></br>
             <Animatetext P={job} />
           </h1>
-          <h2>FullStack Developer / React Expert / UX Designer</h2>
+          
           <Link to="/contact" className="flat_button">
             CONTACT ME
           </Link>
         </div>
         <div className="Logoimage">
-          <img
+          {/* <img
             src={Prateek}
             className="pimage"
             alt="This is Prateek image"
-          ></img>
+          ></img> */}
         </div>
       </div>
       <Loader type="ball-scale-ripple-multiple" color="rgb(255,0,140)" />

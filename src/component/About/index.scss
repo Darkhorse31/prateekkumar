@@ -12,7 +12,6 @@
       top: 50%;
       left: 10%;
 
-
     }
 }
 
@@ -97,4 +96,21 @@
 .abouticon
 {
     font-size:80px;
+}
+.skill{
+    font-size: 25px;
+    font-family: "La Belle Aurore";
+    letter-spacing: 3px;
+    text-decoration: underline;
+    
+}
+ul{
+    li{
+        font-size: 18px;
+       &:hover{
+        transition: .5s ease-in-out;
+        font-size: 22px;
+        color: rgb(247, 132, 0);
+       }
+    }
 }

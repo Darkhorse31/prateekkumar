@@ -35,10 +35,7 @@ const Contact = () => {
             ></Animatetext>
           </h1>
           <p>
-            I'm very curious and dedicated to my work ,I am very ambitious
-            Front-end and back-end developer looking for in Role in establish IT
-            comapny with the opportunity work with the latest technologies on
-            challenging and diverse projects.
+            I'm very curious and dedicated to my work .
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
@@ -74,13 +71,13 @@ const Contact = () => {
           </div>
         </div>
         <div className="info-map">
-          Prateek Kumar
+          Divyanshu Yadav
           <br />
           India,
           <br />
-          Lucknow 226022
+          
           <br />
-          <span>prateek1234569@gmail.com</span>
+          <span>divycic1@gmail.com</span>
         </div>
         <div className="map-wrap">
           <MapContainer center={[44.96366, 19.61045]} zoom={13}>
