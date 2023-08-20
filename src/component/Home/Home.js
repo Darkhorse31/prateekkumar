@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import './index.scss'
-import LogoImge from '../../assets/images/logo.png'
+import resume from '../../assets/images/resume.pdf'
 import Prateek from '../../assets/images/prateek.svg'
 import Animatetext from '../animate/Animatetext.js'
 import Loader from 'react-loaders'
@@ -24,10 +24,10 @@ const Home = () => {
             <br></br>
             <Animatetext P={job} />
           </h1>
-          
-          <Link to="/contact" className="flat_button">
-            CONTACT ME
-          </Link>
+
+          <a href={resume} className="flat_button" download="resume.pdf">
+            Download Resume
+          </a>
         </div>
         <div className="Logoimage">
           {/* <img
